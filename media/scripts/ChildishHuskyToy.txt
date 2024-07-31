@@ -1,0 +1,213 @@
+module Base
+{  
+
+model ChildishHuskyToyWest
+	{
+		mesh = WestFresh,
+        	texture = WestTexture,
+        	scale = 0.3,
+	}	
+model ChildishHuskyToyWest_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTexture,
+        	scale = 0.3,
+	}
+model ChildishHuskyToy3D
+	{
+		mesh = WestFresh,
+        	texture = WestTexture3DEyes,
+        	scale = 0.3,
+	}	
+model ChildishHuskyToy3D_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTexture3DEyes,
+        	scale = 0.3,
+	}
+model ChildishHuskyChildish
+	{
+		mesh = WestFresh,
+        	texture = WestTextureChildish,
+        	scale = 0.3,
+	}	
+model ChildishHuskyChildish_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureChildish,
+        	scale = 0.3,
+	}
+model ChildishHuskyGreen
+	{
+		mesh = WestFresh,
+        	texture = WestTextureGreenEyes,
+        	scale = 0.3,
+	}	
+model ChildishHuskyGreen_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureGreenEyes,
+        	scale = 0.3,
+	}
+model WestTextureMad
+	{
+		mesh = WestFresh,
+        	texture = WestTextureMad,
+        	scale = 0.3,
+	}	
+model WestTextureMad_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureMad,
+        	scale = 0.3,
+	}
+model WestTextureRedEyes
+	{
+		mesh = WestFresh,
+        	texture = WestTextureRedEyes,
+        	scale = 0.3,
+	}	
+model WestTextureRedEyes_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureRedEyes,
+        	scale = 0.3,
+	}
+model WestTextureSad
+	{
+		mesh = WestFresh,
+        	texture = WestTextureSad,
+        	scale = 0.3,
+	}	
+model WestTextureSad_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureSad,
+        	scale = 0.3,
+	}
+model WestTextureSilly
+	{
+		mesh = WestFresh,
+        	texture = WestTextureSilly,
+        	scale = 0.3,
+	}	
+model WestTextureSilly_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureSilly,
+        	scale = 0.3,
+	}
+model WestTextureYellowEyes
+	{
+		mesh = WestFresh,
+        	texture = WestTextureYellowEyes,
+        	scale = 0.3,
+	}	
+model WestTextureYellowEyes_Static
+	{
+		mesh = WestFreshStatic,
+        	texture = WestTextureYellowEyes,
+        	scale = 0.3,
+    }
+
+item ChildishHuskyToyWest
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West,
+		Icon = WestFace,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = ChildishHuskyToyWest,
+		StaticModel = ChildishHuskyToyWest_Static,
+	}
+item ChildishHuskyToy3D
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West 3D Eyes,
+		Icon = 3Deyes,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = ChildishHuskyToy3D,
+		StaticModel = ChildishHuskyToy3D_Static,
+	}
+item ChildishHuskyChildish
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Childish Face,
+		Icon = Childishface,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = ChildishHuskyChildish,
+		StaticModel = ChildishHuskyChildish_Static,
+	}
+item ChildishHuskyGreen
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Green Eyes,
+		Icon = Greeneyes,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = ChildishHuskyGreen,
+		StaticModel = ChildishHuskyGreen_Static,
+	}
+item WestTextureMad
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Mad Face,
+		Icon = Madface,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = WestTextureMad,
+		StaticModel = WestTextureMad_Static,
+	}
+item WestTextureRedEyes
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Red Eyes,
+		Icon = Redeyes,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = WestTextureRedEyes,
+		StaticModel = WestTextureRedEyes_Static,
+	}
+item WestTextureSad
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Sad Face,
+		Icon = Sadeyes,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = WestTextureSad,
+		StaticModel = WestTextureSad_Static,
+	}
+item WestTextureYellowEyes
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Yellow Eyes,
+		Icon = Yelloweyes,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = WestTextureYellowEyes,
+		StaticModel = WestTextureYellowEyes_Static,
+	}
+item WestTextureSilly
+	{
+		DisplayCategory = Raccoon,
+		Weight = 0.2,
+		Type = Normal,
+		DisplayName = Childish Husky West Silly Face,
+		Icon = Sillyface,
+		AttachmentType = SpiffoPlushie,
+		WorldStaticModel = WestTextureSilly,
+		StaticModel = WestTextureSilly_Static,
+	}
+
+}
